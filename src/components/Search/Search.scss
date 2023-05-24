@@ -1,0 +1,36 @@
+.nav{
+    height: 10vh;
+    background-color: burlywood;
+
+
+}
+
+.search-bar{
+    width: 70%;
+    height: 100%;
+    margin:3px auto;
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;       
+    align-items: center;
+
+    input{
+        height: 6vh;
+        width: 40vw;
+        border-radius: 5px;
+        border:none;
+        font-size: 18px;
+        padding-left: 4px;
+    }
+
+    .select{
+        height: 6vh;
+        width: 10vw;
+        border-radius: 5px;
+        border:none;
+        font-size: 18px;
+        padding-left: 4px;
+    }
+
+}
