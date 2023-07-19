@@ -31,7 +31,7 @@ export default function Search() {
         <nav className="nav">
             
             <form className="search-bar" onSubmit={handleSubmit}>
-            <input type="text" value={input} onChange={(e)=>setInput(e.target.value)}placeholder="search Country..."></input>
+            <input type="text" value={input} onChange={(e)=>setInput(e.target.value)}placeholder="search Country..." className="search-input"></input>
         
             
         </form>

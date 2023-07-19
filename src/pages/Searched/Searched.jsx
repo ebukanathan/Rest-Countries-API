@@ -14,7 +14,7 @@ function Searched() {
         const api = await fetch(`https://restcountries.com/v3.1/name/${name}`)
         const data = await api.json()
         setDetail(data)
-        console.log(detail)
+        
     }
 
     useEffect(()=>{
